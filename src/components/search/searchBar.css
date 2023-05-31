@@ -1,0 +1,30 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  background-color: #222121;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input[type='text'] {
+  flex: 1;
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button[type='submit'] {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button[type='submit'] i {
+  color: #333;
+  font-size: 16px;
+}
+
+button[type='submit']:hover i {
+  color: #666;
+}
